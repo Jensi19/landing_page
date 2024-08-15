@@ -1,0 +1,105 @@
+*{
+  padding : 0px;
+  margin : 0px;
+  font-style : none;
+}
+header{
+  background-color:lightgray;
+}
+.container{
+  height: 100vh;
+  width :100%;
+  position:relative;
+  background :linear-gradient(to right,lightblue 70% , lightgreen 30%);
+  overflow : hidden;
+}
+.about{
+  color:black;
+  list-style:none;
+  padding-left:34px;
+}
+.about:hover{
+  color:red;
+}
+.about:active{
+  color:blue;
+}
+.flex{
+  display:flex;
+}
+.inner{
+  padding-left:34px;
+  margin-top:23px;
+}
+.inner:hover{
+  background-color:whitesmoke;
+}
+ul li a{
+  text-decoration:none;
+  font-weight:bold;
+}
+ul li a :: after{
+  content:"";
+  height:100%;
+  width:0%;
+  position:absolute;
+  top:0;
+  margin:0;
+  border-radius:20px;
+  background-color:lightgreen;
+  z-index:-1;
+  transition:0.5s;
+}
+ul li a :hover:after{
+  width:100%;
+}
+
+#name{
+  height:32px;
+  width:225px;
+  margin-top:23px;
+  padding-left:23px;
+}
+.btn{
+  background-color:lightblue;
+  padding-left:20px;
+  height:32px;
+  width:89px;
+  margin-top:23px;
+}
+.con{
+  padding-left:67px;
+}
+.btn:hover{
+  color:blue;
+}
+.btn:active{
+  color:red;
+}
+.main-content{
+  padding-left:23px;
+  margin-top:63px;
+}
+.img-t{
+  height:34px;
+  width:78px;
+  border:2px solid black;
+}
+.content{
+  color:darkblue;
+  font-weight:bold;
+  padding-left:24px;
+}
+.content h2:hover{
+  background-color:grey;
+}
+.held{
+  margin-top:100px;
+}
+footer{
+  background-color:lightgray;
+  text-align: center;
+  padding-top: 23px;
+  margin-top: 125px;
+  height: 150px;
+}
